@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.FieldEncryption.Benchmarks", "EntityFramework.FieldEncryption.Benchmarks\EntityFramework.FieldEncryption.Benchmarks.csproj", "{0F0CA069-9DDD-4FE7-AB58-DFFCA8B6510A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.FieldEncryption.App", "EntityFramework.FieldEncryption.App\EntityFramework.FieldEncryption.App.csproj", "{F2CADFD6-B0E6-4681-81B3-CB3DEB6CF271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.FieldEncryption", "EntityFramework.FieldEncryption\EntityFramework.FieldEncryption.csproj", "{E37B7170-70A3-4CC9-AE90-C0C8B2577ED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{3B07166C-3D34-4726-9EE7-CA4F7B40C867}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F0CA069-9DDD-4FE7-AB58-DFFCA8B6510A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0CA069-9DDD-4FE7-AB58-DFFCA8B6510A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0CA069-9DDD-4FE7-AB58-DFFCA8B6510A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0CA069-9DDD-4FE7-AB58-DFFCA8B6510A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CADFD6-B0E6-4681-81B3-CB3DEB6CF271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CADFD6-B0E6-4681-81B3-CB3DEB6CF271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CADFD6-B0E6-4681-81B3-CB3DEB6CF271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CADFD6-B0E6-4681-81B3-CB3DEB6CF271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37B7170-70A3-4CC9-AE90-C0C8B2577ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37B7170-70A3-4CC9-AE90-C0C8B2577ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37B7170-70A3-4CC9-AE90-C0C8B2577ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37B7170-70A3-4CC9-AE90-C0C8B2577ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD681AA2-048E-4D51-A192-A26810A4A1E4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿version: "3.4"
+services:
+  database:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    container_name: ef-encryption-sql
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - "SA_PASSWORD=Admin1234!"
